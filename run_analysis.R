@@ -50,7 +50,6 @@ activityName <- read.table("./UCI HAR Dataset/UCI HAR Dataset/activity_labels.tx
 ## replace 1 to 6 with activity names
 finalData$activity <- factor(finalData$activity, levels = activityName[,1], labels = activityName[,2])
 
-#-------------------------------------------------------------------------------
 # 4. Appropriately labels the data set with descriptive variable names.
 
 names(finalData) <- gsub("\\()", "", names(finalData))
@@ -59,7 +58,6 @@ names(finalData) <- gsub("^f", "frequence", names(finalData))
 names(finalData) <- gsub("-mean", "Mean", names(finalData))
 names(finalData) <- gsub("-std", "Std", names(finalData))
 
-#-------------------------------------------------------------------------------
 # 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 groupData <- finalData %>%
   group_by(subject, activity) %>%
