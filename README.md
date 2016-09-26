@@ -16,5 +16,7 @@ You should create one R script called run_analysis.R that does the following.
 
 # User Guide
 The program asks you if you want to re-load the data file from the internet site.  Please type your answer Y or N to the question.
--  If your answer is Y, the program will download the data file from the internet and load it into memory for the analysis.
--  If you answer N, the program will load the data previously downloaded to the local machine for the analysis.
+-  If your answer is Y, the program will download the data file from the internet and load it into memory for the data prep.
+-  If you answer N, the program will load the data previously downloaded to the local machine for the data prep.
+
+The result data will be generated in "result" sub-directory of your working directory.  The filename is TidyData.txt 
