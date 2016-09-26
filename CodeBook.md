@@ -6,12 +6,12 @@ This is the summary of result data TidyData.txt after running analysis program r
 * Activity - The activity type name representing type of activities performed when the corresponding measurements were taken
 
   Activity Type Values:
-  ** WALKING
-  ** WALKING_UPSTAIRS
-  ** WALKING_DOWNSTAIRS
-  ** SITTING
-  ** STANDING
-  ** LAYING
+  - WALKING
+  - WALKING_UPSTAIRS
+  - WALKING_DOWNSTAIRS
+  - SITTING
+  - STANDING
+  - LAYING
 
 #Measurements
 * timeBodyAccMean-X
