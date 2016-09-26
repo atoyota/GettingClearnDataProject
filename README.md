@@ -19,4 +19,4 @@ The program asks you if you want to re-load the data file from the internet site
 -  If your answer is Y, the program will download the data file from the internet and load it into memory for the data prep.
 -  If you answer N, the program will load the data previously downloaded to the local machine for the data prep.
 
-The result data will be generated in "result" sub-directory of your working directory.  The filename is TidyData.txt 
+The result data will be generated in *result* sub-directory of your working directory.  The filename is *TidyData.txt* 
