@@ -80,3 +80,17 @@ This is the summary of result data TidyData.txt after running analysis program r
 * frequenceBodyBodyGyroMagStd
 * frequenceBodyBodyGyroJerkMagMean
 * frequenceBodyBodyGyroJerkMagStd
+
+#Data Prepareation Process by run_analysis.R script
+-  Read X_train.txt, y_train.txt and subject_train.txt and store them in train.x, train.y and train.subject variables respectively.
+-  Read X_test.txt, y_test.txt and subject_test.txt store them in test.x, test.y and test.subject variables respectively.
+-  Merge train.subject, train.y, train.x into TrainData
+-  Merge test.subject, test.y, test.x into testData
+-  Merge trainData, testData into fullData
+-  Extracts only the measurements on the mean and standard deviation for each measurement load feature names from features.txt into featureName
+- extract mean and standard deviation of each measurements from featureName and set column names
+- set descriptive activity names to name the activities in the data set load activity data into activityName
+- replace 1 to 6 with activity names
+- Appropriately labels the data set with descriptive variable names.
+- generate independent tidy data set with the average of each variable for each activity and each subject.
+- write out in the TidyData.txt file 
