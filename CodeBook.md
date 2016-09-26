@@ -2,8 +2,9 @@
 This is the summary of result data TidyData.txt after running analysis program run_analysis.R.
 
 #Key Identifiers
-subject: The test subject ID
-Activity - The activity type name representing type of activities performed when the corresponding measurements were taken
+* subject: The test subject ID
+* Activity - The activity type name representing type of activities performed when the corresponding measurements were taken
+
   Activity Type Values:
   ** WALKING
   ** WALKING_UPSTAIRS
